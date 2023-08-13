@@ -1,0 +1,45 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    flex: 1;
+    
+}
+
+.header{
+    background-color: #1F2937;
+    padding: 16px;
+    color: white;
+}
+
+.logo,
+.header-links{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.logo{
+    justify-self: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: 96px;
+}
+
+.header-links{
+    justify-self: flex-end;
+}
