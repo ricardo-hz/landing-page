@@ -1,7 +1,11 @@
 *{
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
 /*This allows the image to shrink and expand*/
 img{
     flex-wrap: wrap;
@@ -34,6 +38,8 @@ a{
 .below-header{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 48px;
+    padding-bottom: 48px;
 } 
 
 .below-header .text{
@@ -82,10 +88,95 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 96px;
 }
 
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.advertisement .content{
+    display: flex;
+    gap: 16px;
+    padding: 32px;
+}
+
+.header,
+.below-header,
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+#hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-link
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-secondary-text,
+.quote-text{
+    /*Why isn't font-weight working :'(*/
+    font-weight: lighter;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.random-information .text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.below-header-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.advertisement .content,
+.below-header-list .sign-up-button,
+.advertisement .content .sign-up-button
+{
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.call-to-action{
+    padding: 0;
+}
+
+.sign-up-button{
+    flex: 1 0 auto;
+}
+
+.advertisement .content .sign-up-button,
+.below-header-list .sign-up-button{
+    padding: 5px 20px 5px 20px;
+    color: white;
+}
+
+.advertisement-list{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
