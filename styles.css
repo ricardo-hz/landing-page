@@ -33,7 +33,14 @@ a{
 
 .below-header{
     display: flex;
+    justify-content: space-evenly;
 } 
+
+.below-header .text{
+    display: flex;
+    align-items: center;
+    width: 450px;
+}
 
 .image-container{
     display: flex;
