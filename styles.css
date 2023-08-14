@@ -123,6 +123,7 @@ a{
 }
 
 .hero-secondary-text,
+.header-link,
 .quote-text{
     /*Why isn't font-weight working :'(*/
     font-weight: lighter;
