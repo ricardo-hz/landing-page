@@ -2,6 +2,11 @@
     font-family: monospace;
 }
 
+/*This allows the image to shrink and expand*/
+img{
+    flex-wrap: wrap;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -46,7 +51,22 @@ a{
     text-align: center;
 }
 
-/*This allows the image to shrink and expand*/
-img{
-    flex-wrap: wrap;
+.random-information{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container{
+    width: 600px;
+}
+
+.quote .text{
+    display: flex;
+    justify-content: flex-end;
 }
