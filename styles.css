@@ -28,4 +28,25 @@ a{
 
 .below-header{
     display: flex;
+} 
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image-text-box,
+.random-image{
+    width: 150px;
+    height: 150px;
+}
+
+.random-information .text{
+    text-align: center;
+}
+
+/*This allows the image to shrink and expand*/
+img{
+    flex-wrap: wrap;
 }
